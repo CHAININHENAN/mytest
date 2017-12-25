@@ -121,6 +121,5 @@ public final class ThreadPoolManager {
 	public void shutdown() {
 		mTaskQueue.clear();
 		mThreadPool.shutdown();
-		
 	}
 }
